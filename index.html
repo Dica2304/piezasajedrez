@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ajedrez Animado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .cajanegra {
+            display: flex;
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            border: solid gold 2px;
+            background-color: black;
+            justify-content: center;
+            align-items: center;    
+        }
+        .cajablanca {
+            display: flex;
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            border: solid gold 2px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pieza1 { animation-delay: 0s; }
+        .pieza2 { animation-delay: 0.3s; }
+        .pieza3 { animation-delay: 0.6s; }
+        .pieza4 { animation-delay: 0.9s; }
+        .pieza5 { animation-delay: 1.2s; }
+        .pieza6 { animation-delay: 1.5s; }
+        .pieza7 { animation-delay: 1.8s; }
+        .pieza8 { animation-delay: 2.1s; }
+        .pieza9 { animation-delay: 2.4s; }
+        .pieza10 { animation-delay: 2.7s; }
+        .pieza11 { animation-delay: 3s; }
+        .pieza12 { animation-delay: 3.3s; }
+        .pieza13 { animation-delay: 3.6s; }
+        .pieza14 { animation-delay: 3.9s; }
+        .pieza15 { animation-delay: 4.2s; }
+        .pieza16 { animation-delay: 4.5s; }
+        .pieza17 { animation-delay: 4.8s; }
+        .pieza18 { animation-delay: 5.1s; }
+        .pieza19 { animation-delay: 5.4s; }
+        .pieza20 { animation-delay: 5.7s; }
+        .pieza21 { animation-delay: 6s; }
+        .pieza22 { animation-delay: 6.3s; }
+        .pieza23 { animation-delay: 6.6s; }     
+        .pieza24 { animation-delay: 6.9s; }
+        .pieza25 { animation-delay: 7.2s; }     
+        .pieza26 { animation-delay: 7.5s; }
+        .pieza27 { animation-delay: 7.8s; }
+        .pieza28 { animation-delay: 8.1s; }
+        .pieza29 { animation-delay: 8.4s; }
+        .pieza30 { animation-delay: 8.7s; }
+        .pieza31 { animation-delay: 9s; }
+        .pieza32 { animation-delay: 9.3s; }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center">MI PRIMER AJEDREZ</h1>
+    <main class="container-fluid">
+    
+        <section class="row">
+            <aside class="col cajanegra">
+               <img src="fichas/torre_negra.png" width="100" height="100"
+                class="animate__animated animate__fadeInLeft pieza1"> 
+            </aside>
+            <aside class="col cajablanca">
+                <img src="fichas/caballo_negro.png" width="100" height="100"
+                class="animate__animated animate__fadeInRight pieza2">
+            </aside>
+            <aside class="col cajanegra">
+               <img src="fichas/alfil_negro.png" width="100" height="100"
+                class="animate__animated animate__fadeInUp pieza3"> 
+            </aside>
+            <aside class="col cajablanca">
+                <img src="fichas/reina_negra.png" width="100" height="100"
+                class="animate__animated animate__zoomIn pieza4">
+            </aside>
+            <aside class="col cajanegra">
+               <img src="fichas/rey_negro.png" width="100" height="100"
+                class="animate__animated animate__zoomIn pieza5"> 
+            </aside>
+            <aside class="col cajablanca">
+                <img src="fichas/alfil_negro.png" width="100" height="100"
+                class="animate__animated animate__fadeInUp pieza6">
+            </aside>
+            <aside class="col cajanegra">
+               <img src="fichas/caballo_negro.png" width="100" height="100"
+                class="animate__animated animate__fadeInRight pieza7"> 
+            </aside>
+            <aside class="col cajablanca">
+                <img src="fichas/torre_negra.png" width="100" height="100"
+                class="animate__animated animate__fadeInLeft pieza8">
+            </aside>
+        </section>
+
+        <section class="row">
+            <aside class="col cajablanca"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza9"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza10"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza11"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza12"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza13"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza14"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza15"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonnegro.png" width="100" height="100" class="animate__animated animate__bounceIn pieza16"></aside>
+        </section>
+
+        <section class="row"><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside></section>
+        <section class="row"><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside></section>
+        <section class="row"><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside></section>
+        <section class="row"><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside><aside class="col cajablanca"></aside><aside class="col cajanegra"></aside></section>
+
+      
+        <section class="row">
+            <aside class="col cajanegra"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza17"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza18"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza19"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza20"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza21"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza22"></aside>
+            <aside class="col cajanegra"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza23"></aside>
+            <aside class="col cajablanca"><img src="fichas/peonblanco.png" width="100" height="100" class="animate__animated animate__bounceIn pieza24"></aside>
+        </section>
+
+        <section class="row">
+            <aside class="col cajablanca"><img src="fichas/torre_blanca.png" width="100" height="100" class="animate__animated animate__fadeInLeft pieza25"></aside>
+            <aside class="col cajanegra"><img src="fichas/caballo_blanco.png" width="100" height="100" class="animate__animated animate__fadeInRight pieza26"></aside>
+            <aside class="col cajablanca"><img src="fichas/alfil_blanco.png" width="100" height="100" class="animate__animated animate__fadeInUp pieza27"></aside>
+            <aside class="col cajanegra"><img src="fichas/reina_blanca.png" width="100" height="100" class="animate__animated animate__zoomIn pieza28"></aside>
+            <aside class="col cajablanca"><img src="fichas/rey_blanco.png" width="100" height="100" class="animate__animated animate__zoomIn pieza29"></aside>
+            <aside class="col cajanegra"><img src="fichas/alfil_blanco.png" width="100" height="100" class="animate__animated animate__fadeInUp pieza30"></aside>
+            <aside class="col cajablanca"><img src="fichas/caballo_blanco.png" width="100" height="100" class="animate__animated animate__fadeInRight pieza31"></aside>
+            <aside class="col cajanegra"><img src="fichas/torre_blanca.png" width="100" height="100" class="animate__animated animate__fadeInLeft pieza32"></aside>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
